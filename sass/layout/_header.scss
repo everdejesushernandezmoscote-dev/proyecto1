@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+    &__primary{
+      &-menu{
+        display: flex;
+        gap: 20px;
+        position: relative;
+        @include reset-list();
+        a{
+            @include button-list();
+        }
+        .vector{
+            position: absolute;
+            left: 533px;
+            top: 11px;
+            padding: 3px;
+            &:hover{
+                color: $green;
+            }
+        }
+      }
+    }
+
+    &__secundary{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        ul{
+            @include reset-list();
+        }
+        &-icons{
+            display: flex;
+            gap: 20px;
+           
+        }
+
+        &-login{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .link{ 
+                color: $blue;
+                display: inline-block;
+                padding: 15px 30px;
+                &:hover{
+                    color: rgb(37, 75, 173);
+                  }
+            }
+        }
+}
+}
