@@ -1,0 +1,46 @@
+.hero{
+    &__title{
+        max-width: 780px;
+        line-height: 80px;
+        font-family: $poppins-font;
+        font-size: 59px;
+        margin-bottom: 32px;
+        color: $blue;
+    }
+    &__subtitle{
+        max-width: 734px;
+        font-family: $poppins-font;
+        font-size: 22px;
+        color: $gray;
+        margin-bottom: 56px;
+    }
+    &__button{
+        @include reset-list();
+        display: flex;
+        gap: 70px;
+        margin-bottom: 90px;
+
+        &-button{
+            @include button();
+        }
+
+        &-list{
+            @include button-list();
+            position: relative;
+            &:before{
+                content: '';
+                width: 40px;
+                height: 40px;
+                background-image: url("../img/icon-play.svg");
+                background-repeat: no-repeat;
+                background-position: center center;
+                position: absolute;
+                top: 4px;
+                left: -31px;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}
