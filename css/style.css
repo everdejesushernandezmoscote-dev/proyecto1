@@ -98,6 +98,19 @@ body {
   color: rgb(37, 75, 173);
 }
 
+body {
+  background-color: #FAF8F5;
+}
+body::before {
+  content: "";
+  width: 33%;
+  height: 80%;
+  background-color: #A9D6CB;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
 html * {
   font-family: "Roboto", sans-serif;
 }
