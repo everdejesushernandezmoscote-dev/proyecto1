@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #264065;
+  color: white;
+  border-radius: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+.button:hover {
+  background-color: rgb(37, 75, 173);
+}
+
+.button-list {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 22px;
+  color: #264065;
+  font-weight: 100;
+}
+.button-list:hover {
+  color: #A9D6CB;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.header__primary-menu {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header__primary-menu a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 22px;
+  color: #264065;
+  font-weight: 100;
+}
+.header__primary-menu a:hover {
+  color: #A9D6CB;
+}
+.header__primary-menu .vector {
+  position: absolute;
+  left: 533px;
+  top: 11px;
+  padding: 3px;
+}
+.header__primary-menu .vector:hover {
+  color: #A9D6CB;
+}
+.header__secundary {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header__secundary ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header__secundary-icons {
+  display: flex;
+  gap: 20px;
+}
+.header__secundary-login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__secundary-login .link {
+  color: #264065;
+  display: inline-block;
+  padding: 15px 30px;
+}
+.header__secundary-login .link:hover {
+  color: rgb(37, 75, 173);
+}
+
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
