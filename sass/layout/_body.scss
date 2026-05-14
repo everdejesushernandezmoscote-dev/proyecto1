@@ -21,4 +21,12 @@ body{
         z-index: -2;
     }
 
+    section.image{
+        position: absolute;
+        bottom: -70px;
+        right: -60px;
+        z-index: 0;
+
+    }
+
 }
