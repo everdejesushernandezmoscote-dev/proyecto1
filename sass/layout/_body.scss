@@ -18,15 +18,15 @@ body{
         position: absolute;
         right: 0;
         top: 0;
-        z-index: -2;
+        z-index: -3;
     }
 
-    section.image{
+    section.image figure{
         position: absolute;
         bottom: -70px;
         right: -60px;
-        z-index: 0;
-
+        z-index: -1;
+       
     }
 
 }

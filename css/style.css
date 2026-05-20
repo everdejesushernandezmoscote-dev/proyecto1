@@ -178,13 +178,13 @@ body::after {
   position: absolute;
   right: 0;
   top: 0;
-  z-index: -2;
+  z-index: -3;
 }
-body section.image {
+body section.image figure {
   position: absolute;
   bottom: -70px;
   right: -60px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .data {
@@ -282,7 +282,7 @@ img.flor {
   bottom: 330px;
   right: 0px;
   width: 530px;
-  z-index: -1;
+  z-index: -2;
 }
 
 html * {
