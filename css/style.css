@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +29,8 @@ body {
   display: inline-block;
   padding: 15px 22px;
   color: #264065;
-  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 .button-list:hover {
   color: #A9D6CB;
@@ -76,7 +77,8 @@ body {
   display: inline-block;
   padding: 15px 22px;
   color: #264065;
-  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 .hero__button-list:hover {
   color: #A9D6CB;
@@ -119,14 +121,15 @@ body {
   display: inline-block;
   padding: 15px 22px;
   color: #264065;
-  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 .header__primary-menu a:hover {
   color: #A9D6CB;
 }
 .header__primary-menu .vector {
   position: absolute;
-  left: 533px;
+  left: 560px;
   top: 11px;
   padding: 3px;
 }
@@ -153,6 +156,7 @@ body {
   gap: 10px;
 }
 .header__secundary-login .link {
+  font-family: "Poppins", sans-serif;
   color: #264065;
   display: inline-block;
   padding: 15px 30px;
@@ -191,6 +195,7 @@ body section.image figure {
   position: relative;
   display: flex;
   gap: 100px;
+  font-family: "Poppins", sans-serif;
 }
 
 .data__info {
@@ -207,7 +212,7 @@ body section.image figure {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  max-width: 140px;
+  max-width: 150px;
 }
 .data__info-1-number {
   font-weight: 400;
@@ -220,30 +225,30 @@ body section.image figure {
   flex-wrap: wrap;
   color: #9D9D9C;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
   justify-content: center;
 }
 
 .data__coments-1 {
   display: inline-block;
-  width: 405;
-  height: 247;
   padding: 24px;
   border-radius: 10px;
-  max-width: 360px;
+  max-width: 405px;
   background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(8px);
   font-size: 18px;
   position: absolute;
-  bottom: 280px;
-  right: -95px;
+  bottom: 255px;
+  right: -150px;
   z-index: 2;
 }
 .data__coments-1 img {
   margin-bottom: 8px;
 }
 .data__coments-1-text {
-  max-width: 316px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  max-width: 357px;
   margin-bottom: 8px;
 }
 .data__coments-1-author {
@@ -252,8 +257,6 @@ body section.image figure {
 }
 .data__coments-2 {
   display: inline-block;
-  width: 405;
-  height: 247;
   padding: 24px;
   border-radius: 10px;
   max-width: 450px;
@@ -261,15 +264,11 @@ body section.image figure {
   backdrop-filter: blur(8px);
   font-size: 18px;
   position: absolute;
-  bottom: -3px;
-  right: 40px;
+  bottom: -30px;
+  right: -20px;
   z-index: 3;
 }
 .data__coments-2 img {
-  margin-bottom: 8px;
-}
-.data__coments-2-text {
-  max-width: 316px;
   margin-bottom: 8px;
 }
 .data__coments-2-author {
@@ -283,10 +282,6 @@ img.flor {
   right: 0px;
   width: 530px;
   z-index: -2;
-}
-
-html * {
-  font-family: "Roboto", sans-serif;
 }
 
 body {
