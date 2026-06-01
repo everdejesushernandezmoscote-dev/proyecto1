@@ -17,7 +17,7 @@
         }
         .vector{
             position: absolute;
-            left: 533px;
+            left: 560px;
             top: 11px;
             padding: 3px;
             &:hover{
@@ -45,6 +45,7 @@
             align-items: center;
             gap: 10px;
             .link{ 
+                font-family: $poppins-font;
                 color: $blue;
                 display: inline-block;
                 padding: 15px 30px;
